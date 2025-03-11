@@ -13,7 +13,7 @@ const useAuth = () => {
 
 
   const { trigger, isMutating } = useSWRMutation(
-    "https://core-skill-test.webc.in/employee-portal/api/v1/auth/login",
+    `${import.meta.env.VITE_SERVER}/auth/login`,
     (url, { arg }) =>
       axios.post(url, arg, { headers: { "Content-Type": "application/json" } })
   );
