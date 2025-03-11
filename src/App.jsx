@@ -11,7 +11,6 @@ import Home from "./components/Home";
 import Protected from "./components/Auth/Protected";
 import EmployeeDetailsPage from "./components/View_Details/EmployeeDetailsPage";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Emipage from "./components/Emitable/Emipage";
 
 function App() {
   return (
@@ -35,14 +34,7 @@ function App() {
               </Protected>
             }
           />
-          <Route
-            path="/emipage"
-            element={
-              <Protected>
-                <Emipage />
-              </Protected>
-            }
-          />
+        
 
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

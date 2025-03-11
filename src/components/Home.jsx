@@ -34,9 +34,6 @@ const Home = () => {
             </>
           )}
         </button>
-              <Link to="/emipage" className="btn btn-primary mt-3 w-40 ms-2 d-flex align-items-center gap-2 p-2">
-          Emitable
-              </Link>
         <div className="mt-4">
           <EmployeeTable />
         </div>

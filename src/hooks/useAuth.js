@@ -19,7 +19,7 @@ const useAuth = () => {
   );
 
   const login = async (username, password) => {
-    setError(""); // Reset any previous error
+    setError(""); 
     try {
       const response = await trigger({ username, password });
 
