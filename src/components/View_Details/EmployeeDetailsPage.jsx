@@ -22,7 +22,7 @@ const EmployeeDetailsPage = () => {
   if (isLoading) {
     return (
       <div className="min-vh-100 d-flex justify-content-center align-items-center">
-        <Loader2 size={40} className="text-primary animate-spin" />z
+        <Loader2 size={40} className="text-primary animate-spin" />
 
       </div>
     );
